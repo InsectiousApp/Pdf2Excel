@@ -1,4 +1,4 @@
-from pyPdf import PdfFileReader
+from PyPDF2 import PdfFileReader
 
 f = open('CT1-All.pdf', 'rb')
 reader = PdfFileReader(f)
